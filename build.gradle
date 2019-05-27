@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.ehanlin'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'ws.schild:jave-all-deps:2.4.6',
+                   'ws.schild:jave-core:2.4.6'
+}
